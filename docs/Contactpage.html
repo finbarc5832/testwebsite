@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+<title>Contact</title>
+
+<!-- Logo Rollover -->
+<script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "images/cirlogoo.png";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "images/cirlogo.png";
+    }
+</script>
+
+<!-- Favicon -->
+<link rel="icon" 
+    type="image/png" 
+    href="images/cirlogo.png"/>
+
+<!-- Form Validation -->
+<script>
+function validateForm() {
+	alert("We will contact you shortly.");
+	document.getElementById("centent").reset();
+}
+</script>
+
+</head>
+<body>
+
+<div id="Background">
+	<img src="images/lonbg3.jpg">
+</div>
+
+<div id="Wrapper">
+
+	<div id="Navi">
+		<a href="Index.html" style="padding-left: 80px;">Home Page</a>
+		<a href="Attractions.html">Attractions</a>
+		<a href="Hotel.html">Hotels</a>
+		<a href="Shop.html">Shop</a>
+		<a href="Contactpage.html" style=" border-right: none;">Contact Us</a>
+	</div>
+
+	<div id="Ustitle">
+	<img src="images/contact.png">
+	</div>
+
+	<div id="Content">
+
+		<div id="Contact">
+			<div id="Feedform">
+				<form id="centent">
+					<p style="font-weight: bold; font-size: 30px; margin-top: 3px;"> Contact Form </p>
+					First name: <input class="Inbox" type="text" name="fname" style="margin-top: 5px;"> <br><br>
+					Last Name: <input class="Inbox" type="text" name="lastName"> <br><br>
+					Email Address: <input class="Inbox" type="text" name="email"> <br><br>
+					Message:<textarea id="messbox" rows="10" cols="60"></textarea>
+					<br>
+					<input id="Sreq" type="button" value="Send Request" onclick="validateForm()">
+				</form>
+			</div>
+		</div>
+
+		<div id="Confo">
+			<p>Please fill in the form below if you would like to get in contact with a member of staff!<br>For any other issues please mail our <a href="mailto:someone@example.com?Subject=herecomesdatboi" target="_top">Customer Support</a>!</p>
+		</div>
+
+	</div>
+
+	<div id="gif1">
+		<img src="images/ben.gif">	
+	</div>
+
+	<div id="gif2">
+		<img src="images/ben.gif">	
+	</div>
+
+
+	<div id="conbox">
+	</div>
+
+	<a href="Index.html">
+	<div id="logo">
+	<img src="images/cirlogo.png"
+	onMouseOver="MouseRollover(this)" 
+	onMouseOut="MouseOut(this)" />
+	</div>
+	</a>
+
+
+
+</div>
+
+</body>
+</html>

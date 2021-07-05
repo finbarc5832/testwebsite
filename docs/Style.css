@@ -1,0 +1,1082 @@
+/*Global CSS*/
+#Background {
+
+	position:fixed;
+
+	top:0;
+	left:0;
+
+	height:100%;
+	width:100%;
+
+	z-index: -3000;
+	overflow: hidden;
+	
+}
+
+#Wrapper {
+	background-color:;
+
+    width: 1300px;
+    height: 900px;
+
+    margin: 0 auto;
+}
+
+#Content {
+
+	position: absolute;
+
+	width:1300px;
+	height: 768px;
+
+	top: 210px;
+	left: 320px;
+
+	border-radius: 25px;
+
+	z-index: +1;
+}
+
+#conbox {
+
+	position: absolute;
+
+	background-color: white;
+
+	width: 1300px;
+	height: 775px;
+
+	top: 200px;
+	left: 310px;
+
+	opacity: 0.6;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	z-index: -1;
+}
+
+#Navi{
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 12px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#Navi a {
+	float: left;
+
+	margin-top: 17px;
+
+	border-right: 3px solid black;
+
+	padding-right: 40px;
+	padding-left: 40px;
+
+	font-size: 30px;
+	font-weight: bold;
+	font-family: fantasy;
+}
+
+#Navi a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#Navi a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#Navi a:hover {
+	text-decoration: none;
+	color: black;
+	font-size: 35px;
+}
+
+#logo img {
+	position: absolute;
+
+	width: 205px;
+	height: 205px;
+
+	top: 5px;
+	left: 301px;
+}
+
+
+/*-----------------------~{Home Page Begins Here}~-----------------------*/
+
+#Homecontent {
+
+	position: absolute;
+
+	width:1300px;
+	height: 990px;
+
+	top: 210px;
+	left: 320px;
+
+	border-radius: 25px;
+
+	z-index: +1;
+}
+
+#Homeconbox {
+
+	position: absolute;
+
+	background-color: white;
+
+	width: 1300px;
+	height: 990px;
+
+	top: 200px;
+	left: 310px;
+
+	opacity: 0.6;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+
+	z-index: -1;
+}
+
+#Hometitle {
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 105px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+
+#Hometitle img {
+	position: absolute;
+
+	height: 80px;
+	width: 500px;
+
+	top: -1px;
+	left: 300px;
+}
+
+#Gallery {
+	position: absolute;
+
+	top: 20px;
+	left: 38px;
+
+	border-radius: 25px;
+}
+
+#Gallery a {
+	text-decoration: none;
+
+	color: black;
+
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+}
+
+#prev {
+	position: absolute;
+}
+
+#loomi {
+	position: absolute;
+	top: 870px;
+	left: 820px;
+
+	height: 5px;
+	width: 5px;
+	z-index: +100;
+}
+
+#next {
+	position: absolute;
+	left: 1160px;
+}
+
+#prev:hover {
+	text-decoration: none;
+
+	color: #333333;
+}
+
+#next:hover {
+	text-decoration: none;
+
+	color: #333333;
+}
+
+/*Gallery Ends Here*/
+
+#Staff {
+	position: absolute;
+
+	height: 700px;
+	width: 500px;
+
+	top: 250px;
+	left: 38px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Staff h1 {
+	position: absolute;
+
+	top: -30px;
+	left: 170px;
+
+	font-size: 55px;
+	font-family: fantasy;
+}
+
+#AWL {
+	position: absolute;
+
+	width: 300px;
+
+	top: 90px;
+	left: 185px;
+
+	list-style-type: none;
+
+	font-family: fantasy;
+	font-size: 20px;
+
+	padding: 0px;
+    margin: 0px;
+}
+
+#BWL {
+	position: absolute;
+
+	width: 300px;
+
+	top: 290px;
+	left: 185px;
+
+	list-style-type: none;
+
+	font-family: fantasy;
+	font-size: 20px;
+
+	padding: 0px;
+    margin: 0px;
+}
+
+#KKL {
+	position: absolute;
+
+	width: 300px;
+
+	top: 505px;
+	left: 185px;
+
+	list-style-type: none;
+
+	font-family: fantasy;
+	font-size: 20px;
+
+	padding: 0px;
+    margin: 0px;
+
+}
+
+#Worker1 {
+	position: absolute; 
+
+	height: 175px; 
+	width: 150px; 
+
+	top: 75px;
+	left: 15px;
+
+	box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.68);
+
+	border-radius: 25px;
+}
+
+#Worker2 {
+	position: absolute; 
+
+	height: 175px; 
+	width: 150px; 
+
+	top: 280px;
+	left: 15px;
+
+	box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.68);
+
+	border-radius: 25px;
+}
+
+#Worker3 {
+	position: absolute; 
+
+	height: 175px; 
+	width: 150px; 
+
+	top: 490px;
+	left: 15px;
+
+	box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.68);
+
+	border-radius: 25px;
+}
+
+#Newgames {
+	position: absolute;
+
+	height: 700px;
+	width: 533px;
+
+	top: 250px;
+	left: 700px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Newgames h1 {
+	position: absolute;
+
+	top: -30px;
+	left: 170px;
+
+	font-size: 55px;
+	font-family: fantasy;
+}
+
+#Newgames p {
+	position: absolute;
+
+	font-family: fantasy;
+	font-size: 20px;
+
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 60px;
+}
+
+/*-----------------------~{Attractions Page Begins here}~-----------------------*/
+#PCtitle {
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 105px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#PCtitle img {
+	position: absolute;
+
+	height: 80px;
+	width: 500px;
+
+	top: -1px;
+	left: 300px;
+}
+
+#Pgamepic {
+	position: absolute;
+
+	top: 30px;
+	left: 50px;
+
+	height: 1100px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Pgamepic img {
+	float: left;
+
+	height: 150px;
+	width: 100px;
+
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+#Pprice {
+	position: absolute;
+
+	top: 30px;
+	left: 300px;
+
+	height: 1100px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#DSpri {
+	position: absolute;
+
+	top: 20px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Morpri {
+	position: absolute;
+
+	top: 200px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Borpri {
+	position: absolute;
+
+	top: 380px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Asspri {
+	position: absolute;
+
+	top: 580px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Ghopri {
+	position: absolute;
+
+	top: 740px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Witpri {
+	position: absolute;
+
+	top: 920px;
+	left: 25px;
+
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Pgames {
+	position: absolute;
+
+	top: 30px;
+	left: 550px;
+
+	height: 1100px;
+	width: 700px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#DSinfo {
+	position: absolute;
+
+	top: 20px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#Morinfo {
+	position: absolute;
+
+	top: 200px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Borinfo {
+	position: absolute;
+
+	top: 380px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Assinfo {
+	position: absolute;
+
+	top: 560px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Ghoinfo {
+	position: absolute;
+
+	top: 740px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Witinfo {
+	position: absolute;
+
+	top: 920px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+/*-----------------------~{Hotel Page Begins Here}~-----------------------*/
+#Contitle {
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 105px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#Contitle img {
+	position: absolute;
+
+	height: 80px;
+	width: 500px;
+
+	top: -9px;
+	left: 300px;
+}
+
+#Cgamepic {
+	position: absolute;
+
+	top: 30px;
+	left: 50px;
+
+	height: 1100px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Cgamepic img {
+	float: left;
+
+	height: 150px;
+	width: 100px;
+
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+#Cprice {
+	position: absolute;
+
+	top: 30px;
+	left: 300px;
+
+	height: 1100px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Assupri {
+	position: absolute;
+
+	top: 20px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Evilpri {
+	position: absolute;
+
+	top: 200px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#GTApri {
+	position: absolute;
+
+	top: 380px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#CODpri {
+	position: absolute;
+
+	top: 560px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Wolfpri {
+	position: absolute;
+
+	top: 740px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Despri {
+	position: absolute;
+
+	top: 920px;
+	left: 25px;
+
+	font-family: fantasy;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#Cgames {
+	position: absolute;
+
+	top: 30px;
+	left: 550px;
+
+	height: 1100px;
+	width: 700px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Assuinfo {
+	position: absolute;
+
+	top: 20px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Evilinfo {
+	position: absolute;
+
+	top: 200px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#GTAinfo {
+	position: absolute;
+
+	top: 380px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#CODGinfo{
+	position: absolute;
+
+	top: 560px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Wolfinfo {
+	position: absolute;
+
+	top: 740px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Desinfo {
+	position: absolute;
+
+	top: 920px;
+
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+	font-weight: bold;
+
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/*-----------------------~{Shop Page Begins here}~-----------------------*/
+#tradetitle {
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 105px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#tradetitle img {
+	position: absolute;
+
+	height: 80px;
+	width: 500px;
+
+	top: -1px;
+	left: 310px;
+}
+
+#shopBar {
+	position: absolute;
+
+	top: 10px;
+	left: 50px;
+
+	height: 150px;
+	width: 1200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#shopPic {
+	position: absolute;
+
+	top: 190px;
+	left: 50px;
+
+	height: 1090px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#shopPic img {
+	float: left;
+
+	height: 150px;
+	width: 100px;
+
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+#shopPrice {
+	position: absolute;
+
+	top: 190px;
+	left: 300px;
+
+	height: 1090px;
+	width: 200px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#tick1{
+	top: 190px;
+	left: 300px;
+}
+
+#shopInfo {
+	position: absolute;
+
+	top: 190px;
+	left: 550px;
+
+	height: 1090px;
+	width: 700px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*-----------------------~{Contact Page Begins Here}~-----------------------*/
+#Ustitle {
+	position: absolute;
+
+	background-color: #CFCFCF;
+
+	width: 1105px;
+	height: 75px;
+
+	top: 105px;
+	left: 502px;
+
+	border: 3px solid black;
+	border-radius: 25px;
+}
+
+#Ustitle img {
+	position: absolute;
+
+	height: 80px;
+	width: 500px;
+
+	top: -5px;
+	left: 300px;
+}
+
+#Contact {
+	position: absolute;
+
+	top: 160px;
+	left: 380px;
+
+	height: 550px;
+	width: 500px;
+
+	border-radius: 25px;
+	border: 3px solid black;
+
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#Feedform {
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 25px;
+}
+
+.Inbox {
+	text-align: center;
+
+	font-family: fantasy;
+	font-size: 20px;
+
+	background-color: #AAAAAA;
+}
+
+#messbox{
+	font-family: fantasy;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#Sreq {
+	position: absolute;
+
+	top: 500px;
+	left: 180px;
+
+	height: 30px;
+	width: 150px;
+
+	font-family: fantasy;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#Confo {
+	position: absolute;
+
+	top: 10px;
+	left: 380px;
+
+	height: 100px;
+	width: 500px;
+}
+
+#Confo p {
+	text-align: center;
+
+	font-family: fantasy;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#gif1 img {
+	position:absolute;
+
+	width: 300px;
+	height: 500px;
+
+	top: 370px;
+	left: 350px;
+}
+
+#gif2 img {
+	position:absolute;
+
+	width: 300px;
+	height: 500px;
+
+	top: 370px;
+	left: 1270px;
+}

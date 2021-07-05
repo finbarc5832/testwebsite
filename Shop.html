@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+<title>Shop</title>
+
+<script language="javascript">
+        function MouseRollover(MyImage) {
+        MyImage.src = "images/cirlogoo.png";
+    }
+        function MouseOut(MyImage) {
+        MyImage.src = "images/cirlogo.png";
+    }
+</script>
+
+<script language="javascript">
+var cart = {};
+
+function addtocart(item){
+	cart.push(item);
+}
+
+function buttonclk()
+{
+	 alert("Thank you for completing your purchase your items will be along shortyly");
+}
+</script>
+<link rel="icon" 
+    type="image/png" 
+    href="images/cirlogo.png"/>
+
+</head>
+<body>
+
+<div id="Background">
+	<img src="images/lonbg4.jpg">
+</div>
+
+<div id="Wrapper">
+
+	<div id="Navi">
+		<a href="Index.html" style="padding-left: 80px;">Home Page</a>
+		<a href="Attractions.html">Attractions</a>
+		<a href="Hotel.html">Hotels</a>
+		<a href="Shop.html">Shop</a>
+		<a href="Contactpage.html" style=" border-right: none;">Contact Us</a>
+	</div>
+
+	<div id="tradetitle">
+	<img src="images/shop.png">
+	</div>
+
+	<div id="Content" style="height: 1310px;">
+		
+		<div id="shopBar">
+			<input type="button" value="Add to Cart" onclick="">
+			<input type="button" value="Complete Purchase" onclick="buttonclk()">
+		</div>
+
+		<div id="shopPic">
+			<img src="images/ticket.ico">
+			<img src="images/ticket.ico">
+			<img src="images/ticket.ico">
+			<img src="images/ticket.ico">
+			<img src="images/ticket.ico">
+			<img src="images/ticket.ico">
+		</div>
+
+		<div id="shopPrice">
+			<p id="Assupri">&pound;25.89</p> <input id="tick1" type="checkbox" name="tick1" value="ticket">
+			<p id="Evilpri">&pound;25.89</p> <input id="tick2" type="checkbox" name="tick2" value="ticket">
+			<p id="GTApri">&pound;15.50</p> <input id="tick3" type="checkbox" name="tick3" value="ticket">
+			<p id="CODpri">&pound;10.25</p> <input  id="tick4" type="checkbox" name="tick4" value="ticket">
+			<p id="Wolfpri">&pound;25.99</p> <input  id="tick5" type="checkbox" name="tick5" value="ticket">
+			<p id="Despri">&pound;35.00</p> <input  id="tick6" type="checkbox" name="tick6" value="ticket">
+		</div>
+
+		<div id="shopInfo">
+		<p id="Assuinfo">Coach Tickets (to london)<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+
+			<p id="Evilinfo">Coach Tickets (out of london)<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+
+			<p id="GTAinfo">Train Tickets<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+
+			<p id="CODGinfo">Bus Tickets<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+
+			<p id="Wolfinfo">Tour Bus Tickets<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+
+			<p id="Desinfo">Tour Boat Tickets<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet odio ut risus congue mollis. Etiam suscipit libero enim, eu congue erat maximus quis. Vivamus sit amet blandit tortor. Vestibulum dignissim eu arcu ac pellentesque. Phasellus id accumsan turpis. Curabitur ipsum risus, venenatis ut ullamcorper sit amet, fermentum at.</p>
+		</div>	
+	
+	</div>
+
+	<div id="conbox" style="height: 1300px;">
+	</div>
+
+	<a href="Index.html">
+	<div id="logo">
+	<img src="images/cirlogo.png"
+	onMouseOver="MouseRollover(this)"
+	onMouseOut="MouseOut(this)" />
+	</div>
+	</a>
+
+
+
+</div>
+
+</body>
+</html>

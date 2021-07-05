@@ -1,31 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<meta charset="UTF-8">
-	<link rel="icon" type="image/x-icon" href="img/insta.png">
-	
-	<title>Test</title>
 
-	<link rel="stylesheet" href="style/style.css">
-	
-	<style>
-	</style>
+<link rel="stylesheet" type="text/css" href="Style.css">
 
-	<script>
-		function myfunction()
-		{
-			document.getElementById("demo").innerHTML = "Paragraph changed.";
-		}
-		console.log((5+6));
-	</script>
+<title>Home Page</title>
+
+<!-- rollover Script -->
+<script language="javascript">
+	// when the mouse is over the image, this image is displayed
+        function MouseRollover(MyImage) {
+        MyImage.src = "images/cirlogoo.png";
+    }
+    // when the mouse is off the image, this image is displayed
+        function MouseOut(MyImage) {
+        MyImage.src = "images/cirlogo.png";
+    }
+</script>
+
+<!-- gallery Script -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<style type="text/css">
+
+#myslideshow{ 
+border:2px solid black;
+}
+
+</style>
+
+<script src="JS/translucentslideshow.js" type="text/javascript">
+
+</script>
+
+<script type="text/javascript">
+
+var translideshow1=new translideshow({
+	wrapperid: "myslideshow",
+	dimensions: [1200, 200],
+	imagearray: [
+		["images/gallery/Lon1.png"],
+		["images/gallery/Lon2.jpg"],
+		["images/gallery/Lon3.jpg"],
+		["images/gallery/Lon4.png"],
+		["images/gallery/Lon5.png"]
+	],
+	displaymode: {type:'auto', pause:2000, cycles:2, pauseonmouseover:true},
+	orientation: "h",
+	persist: true,
+	slideduration: 400
+})
+
+</script>
+
+<!-- Favicon -->
+<link rel="icon" 
+    type="image/png" 
+    href="images/cirlogo.png"/>
+
 </head>
-
 <body>
-	<p>test <a href="https://www.google.co.uk">link</a></p>
-	<p id="demo">player</p>
-	<p id="tes1"></p>
-	<button type="button" onclick="myfunction()">click</button>
-</body>
 
+<div id="Background" style="center: fixed;">
+	<img src="images/lonbg1.jpg">
+</div>
+
+<div id="Wrapper">
+
+	<div id="Navi">
+		<a href="Index.html" style="padding-left: 80px;">Home Page</a>
+		<a href="Attractions.html">Attractions</a>
+		<a href="Hotel.html">Hotels</a>
+		<a href="Shop.html">Shop</a>
+		<a href="Contactpage.html" style=" border-right: none;">Contact Us</a>
+	</div>
+
+	<div id="Hometitle">
+	<img src="images/ptours.png">
+	</div>
+
+	<div id="Homecontent">
+
+		<div id="Gallery">
+			<div id="myslideshow" style="position: absolute; height: 200px; width: 1200px; border-radius: 25px;"></div>
+			<a id="prev" href="javascript:translideshow1.navigate('back')" style="margin-right:190px;">Previous</a>  <a id="next" href="javascript:translideshow1.navigate('forth')">Next</a>
+			<br>
+		</div>
+
+		<a href="http://i.imgur.com/Y8nsuF6.png">
+		<img id="loomi" src="images/cod.png">
+		</a>
+
+		<div id="Staff">
+			<h1>Staff</h1>
+
+			<ul id="AWL">
+				<li>Name: John Doe</li>
+				<li>Age: 28</li>
+				<li>Job Role: Manager</li>
+				<li>Personal Comment: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus.</li>
+			</ul>
+
+			<ul id="BWL">
+				<li>Name: Jane Doe</li>
+				<li>Age: 23</li>
+				<li>Job Role: Sales Director</li>
+				<li>Personal Trait: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus.</li>
+			</ul>
+
+			<ul id="KKL">
+				<li>Name: Klark Kent</li>
+				<li>Age: 26</li>
+				<li>Job Role: Marketing Director</li>
+				<li>Personal Trait: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus.</li>
+			</ul>
+
+			<img id="Worker1" src="images/worker2.jpg">
+			<img id="Worker2" src="images/worker1.jpg">
+			<img id="Worker3" src="images/worker3.jpg">		
+		</div>	
+
+		<!-- Game Box Art -->
+		<div id="Newgames">  
+			<h1>About Us</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nibh nunc, vitae pharetra nulla mattis nec. Phasellus pellentesque nisl sapien, ut efficitur augue pretium eget. Quisque quis magna metus. Aenean gravida condimentum risus vitae vehicula. Ut tristique nisl ut pharetra dignissim. Donec eu varius nisi. Sed vel vulputate enim.
+
+			Duis vehicula erat tortor, in tincidunt tortor tincidunt sit amet. Donec ultricies, elit et interdum iaculis, odio turpis pulvinar nisl, vel vulputate magna tortor vel metus. Aenean libero metus, dictum id ornare vel, viverra id massa. Curabitur volutpat euismod massa, auctor pulvinar ipsum porttitor eu. Sed in consectetur lorem. Mauris pulvinar urna nec nisl pulvinar, ac consectetur ipsum pharetra. Vivamus tincidunt feugiat feugiat. Maecenas sit amet sollicitudin ante. Suspendisse volutpat augue ante, et aliquam nunc scelerisque pulvinar. Aenean elementum non justo nec elementum. Pellentesque purus tellus, aliquam ut velit at, pellentesque finibus lectus. Nulla tincidunt metus eu massa feugiat lacinia. Curabitur tincidunt odio convallis purus feugiat bibendum. Morbi mattis egestas metus non mattis.
+
+			Nulla aliquet nibh quam, sit amet vestibulum augue placerat eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu est sit amet nisl elementum bibendum vel at eros. </p>
+		</div>
+
+	</div>
+
+	<div id="Homeconbox">
+	</div>
+
+	<a href="Index.html">
+	<div id="logo">
+	<img src="images/cirlogo.png"
+	onMouseOver="MouseRollover(this)" 
+	onMouseOut="MouseOut(this)" />
+	</div>
+	</a>
+
+</div>
+
+</body>
 </html>
+
